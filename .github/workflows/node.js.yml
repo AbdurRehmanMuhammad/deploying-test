@@ -25,8 +25,9 @@ jobs:
     - run: npm install
     - run: npm run build --if-present
     - run: npm test
+    - uses: crazy-max/ghaction-github-pages@v3.1.0
     
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        folder: build # The folder the action should deploy.
+
+    
+
+   
